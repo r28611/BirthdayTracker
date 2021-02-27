@@ -14,8 +14,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupAppearance()
         return true
+    }
+    
+    func setupAppearance() {
+        let navigationBarAppearance = UINavigationBar.appearance()
+        navigationBarAppearance.tintColor = UIColor.black
+        navigationBarAppearance.barTintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        
+        let datePickerAppearance = UIDatePicker.appearance()
+        datePickerAppearance.tintColor = UIColor.black
+        datePickerAppearance.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     }
 
     // MARK: UISceneSession Lifecycle

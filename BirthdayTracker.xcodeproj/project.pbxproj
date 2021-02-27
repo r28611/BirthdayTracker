@@ -10,11 +10,10 @@
 		AB6E483A25B3159300F7B66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6E483925B3159200F7B66B /* Assets.xcassets */; };
 		ABF888912591513500A29574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF888902591513500A29574 /* AppDelegate.swift */; };
 		ABF888932591513500A29574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF888922591513500A29574 /* SceneDelegate.swift */; };
-		ABF888952591513500A29574 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF888942591513500A29574 /* AddBirthdayViewController.swift */; };
+		ABF888952591513500A29574 /* AddBirthdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF888942591513500A29574 /* AddBirthdayVC.swift */; };
 		ABF888982591513500A29574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF888962591513500A29574 /* Main.storyboard */; };
 		ABF8889B2591513500A29574 /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABF888992591513500A29574 /* BirthdayTracker.xcdatamodeld */; };
 		ABF888A02591513600A29574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF8889E2591513600A29574 /* LaunchScreen.storyboard */; };
-		ABF888AA2592A87600A29574 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF888A92592A87600A29574 /* Birthday.swift */; };
 		ABF888AE2592BD3D00A29574 /* BirthdaysTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF888AD2592BD3D00A29574 /* BirthdaysTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +22,11 @@
 		ABF8888D2591513500A29574 /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF888902591513500A29574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABF888922591513500A29574 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABF888942591513500A29574 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
+		ABF888942591513500A29574 /* AddBirthdayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayVC.swift; sourceTree = "<group>"; };
 		ABF888972591513500A29574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABF8889A2591513500A29574 /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 		ABF8889F2591513600A29574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABF888A12591513600A29574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABF888A92592A87600A29574 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 		ABF888AD2592BD3D00A29574 /* BirthdaysTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,10 +63,9 @@
 				ABF888AD2592BD3D00A29574 /* BirthdaysTableTableViewController.swift */,
 				ABF888902591513500A29574 /* AppDelegate.swift */,
 				ABF888922591513500A29574 /* SceneDelegate.swift */,
-				ABF888942591513500A29574 /* AddBirthdayViewController.swift */,
+				ABF888942591513500A29574 /* AddBirthdayVC.swift */,
 				AB6E483925B3159200F7B66B /* Assets.xcassets */,
 				ABF888962591513500A29574 /* Main.storyboard */,
-				ABF888A92592A87600A29574 /* Birthday.swift */,
 				ABF8889E2591513600A29574 /* LaunchScreen.storyboard */,
 				ABF888A12591513600A29574 /* Info.plist */,
 				ABF888992591513500A29574 /* BirthdayTracker.xcdatamodeld */,
@@ -146,8 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF888AA2592A87600A29574 /* Birthday.swift in Sources */,
-				ABF888952591513500A29574 /* AddBirthdayViewController.swift in Sources */,
+				ABF888952591513500A29574 /* AddBirthdayVC.swift in Sources */,
 				ABF888912591513500A29574 /* AppDelegate.swift in Sources */,
 				ABF888AE2592BD3D00A29574 /* BirthdaysTableTableViewController.swift in Sources */,
 				ABF888932591513500A29574 /* SceneDelegate.swift in Sources */,

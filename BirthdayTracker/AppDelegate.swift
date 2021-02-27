@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func setupAppearance() {
         let navigationBarAppearance = UINavigationBar.appearance()
         navigationBarAppearance.tintColor = UIColor.black
-        navigationBarAppearance.barTintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        navigationBarAppearance.backgroundColor = #colorLiteral(red: 0.9686623216, green: 0.9649673104, blue: 0.9522917867, alpha: 1)
         
         let datePickerAppearance = UIDatePicker.appearance()
         datePickerAppearance.tintColor = UIColor.black

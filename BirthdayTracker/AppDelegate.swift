@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         setupAppearance()
+        let center = UNUserNotificationCenter.current(); center.requestAuthorization(options:   [.alert, .sound],
+                                                                                     completionHandler: {(granted, error) in
+               if granted {
+                   print("Разрешение на отправку уведомлений получено!")
+               } else {
+                   print("В разрешении на отправку уведомлений отказано.")
+                   
+               }
+        })
+        
         return true
     }
     
